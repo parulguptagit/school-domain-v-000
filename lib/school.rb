@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School 
   
   def initialize(name)
@@ -24,7 +25,9 @@ class School
   
   def sort()
     h = @roster.sort.to_h
+    
     h.each do |key,value|
+      binding.pry
       h[key].sort
     end
     h
