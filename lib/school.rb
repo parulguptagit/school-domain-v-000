@@ -24,5 +24,6 @@ class School
   
   def sort()
     h = @roster.sort.to_h
+    h.each
   end
  end
