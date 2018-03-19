@@ -49,9 +49,9 @@ describe 'School' do
     it 'is able to sort the students' do
       @school.add_student("Homer Simpson", 9)
       @school.add_student("Bart Simpson", 9)
-      @school.add_student("RAvi Flombaum", 10)
+      @school.add_student("Avi Flombaum", 10)
       @school.add_student("Jeff Baird", 10)
-      @school.add_student("SBlake Johnson", 7)
+      @school.add_student("Blake Johnson", 7)
       @school.add_student("Jack Bauer", 7)
 
       # key order does not matter; this is testing that the students in each respective value are in alphabetical order
