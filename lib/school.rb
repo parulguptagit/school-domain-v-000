@@ -27,7 +27,7 @@ class School
     h = @roster.sort.to_h
     
     h.each do |key,value|
-      h[key].sort.collect!
+      h[key].sort!
     end
     h
   end
