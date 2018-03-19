@@ -27,5 +27,6 @@ class School
     h.each do |key,value|
       h[key].sort
     end
+    h
   end
  end
