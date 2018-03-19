@@ -25,6 +25,5 @@ class School
   def sort()
     
     @roster.sort
-    end
   end
 end
