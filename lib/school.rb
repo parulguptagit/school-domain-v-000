@@ -27,8 +27,7 @@ class School
     h = @roster.sort.to_h
     
     h.each do |key,value|
-      binding.pry
-      h[key].sort.collect
+      h[key].sort.collect!
     end
     h
   end
