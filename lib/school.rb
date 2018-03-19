@@ -28,7 +28,7 @@ class School
     
     h.each do |key,value|
       binding.pry
-      h[key].sort
+      h[key].sort.collect
     end
     h
   end
